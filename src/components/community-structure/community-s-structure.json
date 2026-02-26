@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_community_structure_community_s_structures",
+  "info": {
+    "displayName": "Community's Structure"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "structure": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "description": {
+      "type": "blocks"
+    }
+  },
+  "config": {}
+}

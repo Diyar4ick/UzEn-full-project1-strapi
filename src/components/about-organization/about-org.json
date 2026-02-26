@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_about_organization_about_orgs",
+  "info": {
+    "displayName": "About org"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "text"
+    },
+    "description": {
+      "type": "blocks"
+    },
+    "icon_banner_left": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  },
+  "config": {}
+}

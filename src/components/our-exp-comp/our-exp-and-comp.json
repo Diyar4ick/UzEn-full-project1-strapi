@@ -1,0 +1,56 @@
+{
+  "collectionName": "components_our_exp_comp_our_exp_and_comps",
+  "info": {
+    "displayName": "Our Exp and Comp"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "our_exp_comp_box1": {
+      "type": "component",
+      "component": "our-exp-comp-box.our-exp-and-comp-box",
+      "repeatable": false
+    },
+    "our_exp_comp_box2": {
+      "type": "component",
+      "component": "our-exp-comp-box.our-exp-and-comp-box",
+      "repeatable": true
+    },
+    "exp_footer_img": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "exp_subtext": {
+      "type": "string"
+    },
+    "exp_img1": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "exp_img2": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  },
+  "config": {}
+}

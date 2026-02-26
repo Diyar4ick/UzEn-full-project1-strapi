@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_vacancy_req_vacancy_req1s",
+  "info": {
+    "displayName": "Vacancy req1"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "blocks"
+    }
+  },
+  "config": {}
+}

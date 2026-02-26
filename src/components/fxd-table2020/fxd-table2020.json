@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_fxd_table2020_fxd_table2020s",
+  "info": {
+    "displayName": "fxd-table2020"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "description": {
+      "type": "blocks"
+    }
+  },
+  "config": {}
+}

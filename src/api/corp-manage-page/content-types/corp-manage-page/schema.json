@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "corp_manage",
+  "info": {
+    "singularName": "corp-manage-page",
+    "pluralName": "corp-manage",
+    "displayName": "Corp-manage"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "blocks": {
+      "type": "dynamiczone",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "components": [
+        "corp-manage-table.corp-manage-table"
+      ]
+    }
+  }
+}

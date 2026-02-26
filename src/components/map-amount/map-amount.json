@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_map_amount_map_amounts",
+  "info": {
+    "displayName": "Map Amount"
+  },
+  "options": {},
+  "attributes": {
+    "map_amount_num": {
+      "type": "string"
+    },
+    "map_amount_text": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

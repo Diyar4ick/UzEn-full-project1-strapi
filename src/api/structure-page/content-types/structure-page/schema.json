@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "structure",
+  "info": {
+    "singularName": "structure-page",
+    "pluralName": "structure",
+    "displayName": "Structure"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "slug": {
+      "type": "uid"
+    },
+    "blocks": {
+      "type": "dynamiczone",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "components": [
+        "community-structure.community-s-structure",
+        "structure-departments.departments",
+        "structure-branch.srtucture-branch"
+      ]
+    }
+  }
+}

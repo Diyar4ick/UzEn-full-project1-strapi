@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_sign_fact2024_table_sign_fact2024_tables",
+  "info": {
+    "displayName": "sign-fact2024 table"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "table_title": {
+      "type": "string"
+    },
+    "table_content": {
+      "type": "blocks"
+    },
+    "table_link": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

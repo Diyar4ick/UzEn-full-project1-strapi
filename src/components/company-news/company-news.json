@@ -1,0 +1,58 @@
+{
+  "collectionName": "components_company_news_company_news",
+  "info": {
+    "displayName": "Company News"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "news_card": {
+      "type": "component",
+      "component": "news-card.news-card",
+      "repeatable": true
+    },
+    "news_card2": {
+      "type": "component",
+      "component": "news-card.news-card",
+      "repeatable": true
+    },
+    "news_card3": {
+      "type": "component",
+      "component": "news-card.news-card",
+      "repeatable": true
+    },
+    "news_img1": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "news_img2": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "news_img3": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  },
+  "config": {}
+}

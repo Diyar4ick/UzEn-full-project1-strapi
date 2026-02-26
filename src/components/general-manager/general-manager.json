@@ -1,0 +1,44 @@
+{
+  "collectionName": "components_general_manager_general_managers",
+  "info": {
+    "displayName": "General Manager"
+  },
+  "options": {},
+  "attributes": {
+    "manager_avatar": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "manager_name": {
+      "type": "string"
+    },
+    "manager_duty": {
+      "type": "string"
+    },
+    "manager_phone": {
+      "type": "string"
+    },
+    "manager_workdays": {
+      "type": "string"
+    },
+    "manager_email": {
+      "type": "string"
+    },
+    "duty_button": {
+      "type": "string"
+    },
+    "close_button": {
+      "type": "string"
+    },
+    "dropdown_content": {
+      "type": "blocks"
+    }
+  },
+  "config": {}
+}

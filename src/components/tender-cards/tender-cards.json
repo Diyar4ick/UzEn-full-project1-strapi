@@ -1,0 +1,55 @@
+{
+  "collectionName": "components_tender_cards_tender_cards",
+  "info": {
+    "displayName": "Tender Cards"
+  },
+  "options": {},
+  "attributes": {
+    "card1": {
+      "type": "component",
+      "component": "tender-cards.contest-card",
+      "repeatable": true
+    },
+    "card2": {
+      "type": "component",
+      "component": "tender-cards.contest-card",
+      "repeatable": true
+    },
+    "card3": {
+      "type": "component",
+      "component": "tender-cards.contest-card",
+      "repeatable": true
+    },
+    "card4": {
+      "type": "component",
+      "component": "tender-cards.contest-card",
+      "repeatable": true
+    },
+    "card5": {
+      "type": "component",
+      "component": "tender-cards.contest-card",
+      "repeatable": true
+    },
+    "card6": {
+      "type": "component",
+      "component": "tender-cards.contest-card",
+      "repeatable": true
+    },
+    "card7": {
+      "type": "component",
+      "component": "tender-cards.contest-card",
+      "repeatable": true
+    },
+    "card8": {
+      "type": "component",
+      "component": "tender-cards.contest-card",
+      "repeatable": true
+    },
+    "card9": {
+      "type": "component",
+      "component": "tender-cards.contest-card",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_stragy_table_stratagy_tables",
+  "info": {
+    "displayName": "Stratagy table"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "table_description": {
+      "type": "blocks"
+    },
+    "table_link": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

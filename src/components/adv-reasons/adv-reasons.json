@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_adv_reasons_adv_reasons",
+  "info": {
+    "displayName": "Adv reasons"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "reasons": {
+      "type": "blocks"
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_fxd_table_table_fxd_table_tables",
+  "info": {
+    "displayName": "fxd-table table"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "table_title": {
+      "type": "string"
+    },
+    "table_link": {
+      "type": "string"
+    },
+    "table_content": {
+      "type": "blocks"
+    }
+  },
+  "config": {}
+}

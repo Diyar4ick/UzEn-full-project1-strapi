@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "voting_results",
+  "info": {
+    "singularName": "voting-results-page",
+    "pluralName": "voting-results",
+    "displayName": "Voting-results"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "blocks": {
+      "type": "dynamiczone",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "components": [
+        "voting-results-table.voting-results-table"
+      ]
+    }
+  }
+}

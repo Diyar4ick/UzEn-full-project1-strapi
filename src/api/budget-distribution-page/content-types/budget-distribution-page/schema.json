@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "budget_distribution",
+  "info": {
+    "singularName": "budget-distribution-page",
+    "pluralName": "budget-distribution",
+    "displayName": "Budget-distribution"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "blocks": {
+      "type": "dynamiczone",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "components": [
+        "budget-distribution-table.budget-distribution-table"
+      ]
+    }
+  }
+}

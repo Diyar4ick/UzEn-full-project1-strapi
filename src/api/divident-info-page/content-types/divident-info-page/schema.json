@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "divident_info",
+  "info": {
+    "singularName": "divident-info-page",
+    "pluralName": "divident-info",
+    "displayName": "Divident-info"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "blocks": {
+      "type": "dynamiczone",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "components": [
+        "divident-info-table.divident-info-table"
+      ]
+    }
+  }
+}

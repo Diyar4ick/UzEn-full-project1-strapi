@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_voting_results_table_voting_results_tables",
+  "info": {
+    "displayName": "voting-results table"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "table_link": {
+      "type": "string"
+    },
+    "table_description": {
+      "type": "blocks"
+    }
+  },
+  "config": {}
+}

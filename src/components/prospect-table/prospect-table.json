@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_prospect_table_prospect_tables",
+  "info": {
+    "displayName": "Prospect table"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "table_link": {
+      "type": "string"
+    },
+    "table_description": {
+      "type": "blocks"
+    }
+  },
+  "config": {}
+}

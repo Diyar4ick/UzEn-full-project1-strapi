@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_tender6_content_tender6_contents",
+  "info": {
+    "displayName": "Tender6 Content"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "text"
+    },
+    "subtitle2": {
+      "type": "text"
+    },
+    "description": {
+      "type": "blocks"
+    },
+    "title2": {
+      "type": "string"
+    },
+    "title_num": {
+      "type": "string"
+    },
+    "title_table": {
+      "type": "string"
+    },
+    "table_description": {
+      "type": "blocks"
+    },
+    "table": {
+      "type": "blocks"
+    }
+  },
+  "config": {}
+}

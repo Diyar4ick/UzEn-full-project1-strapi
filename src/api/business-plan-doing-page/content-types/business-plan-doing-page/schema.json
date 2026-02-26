@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "business_plan_doing",
+  "info": {
+    "singularName": "business-plan-doing-page",
+    "pluralName": "business-plan-doing",
+    "displayName": "Business-plan-doing"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "blocks": {
+      "type": "dynamiczone",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "components": [
+        "business-plan-doing-table.business-plan-doing-table"
+      ]
+    }
+  }
+}

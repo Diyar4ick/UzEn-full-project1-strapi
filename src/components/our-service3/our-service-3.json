@@ -1,0 +1,56 @@
+{
+  "collectionName": "components_our_service3_our_service_3s",
+  "info": {
+    "displayName": "Our service 3"
+  },
+  "options": {},
+  "attributes": {
+    "service3_name": {
+      "type": "string"
+    },
+    "service3_img": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "service3_subtext": {
+      "type": "string"
+    },
+    "service3_card1": {
+      "type": "component",
+      "component": "service-card.service-card",
+      "repeatable": true
+    },
+    "service3_card2": {
+      "type": "component",
+      "component": "service-card.service-card",
+      "repeatable": true
+    },
+    "service3_card1_img": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "service3_card2_img": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,44 @@
+{
+  "collectionName": "components_what_we_do_what_we_do_s",
+  "info": {
+    "displayName": "What we do?"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "text"
+    },
+    "link1": {
+      "type": "text"
+    },
+    "link1_description": {
+      "type": "text"
+    },
+    "link2": {
+      "type": "text"
+    },
+    "link2_description": {
+      "type": "text"
+    },
+    "link3": {
+      "type": "text"
+    },
+    "link3_description": {
+      "type": "text"
+    },
+    "img": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_corp_manage_mambers_corp_manage_members",
+  "info": {
+    "displayName": "Corp-manage members"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "content": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

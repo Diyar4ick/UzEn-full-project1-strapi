@@ -1,0 +1,58 @@
+{
+  "collectionName": "components_reports_content_report_page_contents",
+  "info": {
+    "displayName": "Report page content"
+  },
+  "options": {},
+  "attributes": {
+    "card1": {
+      "type": "component",
+      "component": "reports-card.report-card",
+      "repeatable": true
+    },
+    "card2": {
+      "type": "component",
+      "component": "reports-card.report-card",
+      "repeatable": true
+    },
+    "card3": {
+      "type": "component",
+      "component": "reports-card.report-card",
+      "repeatable": true
+    },
+    "card4": {
+      "type": "component",
+      "component": "reports-card.report-card",
+      "repeatable": true
+    },
+    "card5": {
+      "type": "component",
+      "component": "reports-card.report-card",
+      "repeatable": true
+    },
+    "card6": {
+      "type": "component",
+      "component": "reports-card.report-card",
+      "repeatable": true
+    },
+    "card7": {
+      "type": "component",
+      "component": "reports-card.report-card",
+      "repeatable": true
+    },
+    "report_img": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "button": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

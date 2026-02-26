@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_tender1_content_tender1_contents",
+  "info": {
+    "displayName": "Tender1 Content"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "text"
+    },
+    "description": {
+      "type": "blocks"
+    }
+  },
+  "config": {}
+}

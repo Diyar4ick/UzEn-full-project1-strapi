@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_history_chronology_history_chronologies",
+  "info": {
+    "displayName": "History chronology"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "blocks"
+    },
+    "icon_banner_left": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  },
+  "config": {}
+}

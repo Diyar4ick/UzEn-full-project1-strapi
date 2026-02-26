@@ -1,0 +1,86 @@
+{
+  "collectionName": "components_our_service2_our_service_2s",
+  "info": {
+    "displayName": "Our service 2"
+  },
+  "options": {},
+  "attributes": {
+    "service2_name": {
+      "type": "string"
+    },
+    "service2_img": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "service2_subtext": {
+      "type": "string"
+    },
+    "service2_card1": {
+      "type": "component",
+      "component": "service-card.service-card",
+      "repeatable": true
+    },
+    "service2_card2": {
+      "type": "component",
+      "component": "service-card.service-card",
+      "repeatable": true
+    },
+    "service2_card3": {
+      "type": "component",
+      "component": "service-card.service-card",
+      "repeatable": false
+    },
+    "service2_card4": {
+      "type": "component",
+      "component": "service-card.service-card",
+      "repeatable": true
+    },
+    "service2_card1_img": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "service2_card2_img": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "service2_card3_img": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "service2_card4_img": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  },
+  "config": {}
+}

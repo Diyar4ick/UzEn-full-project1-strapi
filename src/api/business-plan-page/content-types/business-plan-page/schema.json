@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "business_plan",
+  "info": {
+    "singularName": "business-plan-page",
+    "pluralName": "business-plan",
+    "displayName": "Business-plan"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "blocks": {
+      "type": "dynamiczone",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "components": [
+        "business-plan-table.business-plan-table"
+      ]
+    }
+  }
+}

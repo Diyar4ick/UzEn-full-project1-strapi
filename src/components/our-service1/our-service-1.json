@@ -1,0 +1,104 @@
+{
+  "collectionName": "components_our_service1_our_service_1s",
+  "info": {
+    "displayName": "Our service 1"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "service_name": {
+      "type": "text"
+    },
+    "service_img": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "service_subtext": {
+      "type": "string"
+    },
+    "service1_card1": {
+      "type": "component",
+      "component": "service-card.service-card",
+      "repeatable": true
+    },
+    "service1_card2": {
+      "type": "component",
+      "component": "service-card.service-card",
+      "repeatable": true
+    },
+    "service1_card3": {
+      "type": "component",
+      "component": "service-card.service-card",
+      "repeatable": true
+    },
+    "service1_card4": {
+      "type": "component",
+      "component": "service-card.service-card",
+      "repeatable": true
+    },
+    "service1_card5": {
+      "type": "component",
+      "component": "service-card.service-card",
+      "repeatable": true
+    },
+    "service1_card1_img": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "service1_card2_img": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "service1_card3_img": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "service1_card4_img": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "service1_card5_img": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  },
+  "config": {}
+}

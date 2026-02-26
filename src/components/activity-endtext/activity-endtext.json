@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_activity_endtext_activity_endtexts",
+  "info": {
+    "displayName": "activity endtext"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "blocks"
+    }
+  },
+  "config": {}
+}

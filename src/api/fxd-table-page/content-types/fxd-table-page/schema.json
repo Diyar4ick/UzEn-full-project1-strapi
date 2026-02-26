@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "fxd_table",
+  "info": {
+    "singularName": "fxd-table-page",
+    "pluralName": "fxd-table",
+    "displayName": "fxd-table"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "blocks": {
+      "type": "dynamiczone",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "components": [
+        "fxd-table-table.fxd-table-table",
+        "fxd-table2022.fxd-table2022",
+        "fxd-table2021.fxd-table2021",
+        "fxd-table2020.fxd-table2020",
+        "fxd-table2019.fxd-table2019"
+      ]
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_tender_cards_contest_cards",
+  "info": {
+    "displayName": "contest_card"
+  },
+  "options": {},
+  "attributes": {
+    "date": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "text"
+    },
+    "title": {
+      "type": "text"
+    },
+    "text": {
+      "type": "text"
+    },
+    "button": {
+      "type": "string"
+    },
+    "button2": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

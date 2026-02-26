@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_business_plan_table_business_plan_tables",
+  "info": {
+    "displayName": "business-plan table"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "table_link": {
+      "type": "string"
+    },
+    "table_description": {
+      "type": "blocks"
+    }
+  },
+  "config": {}
+}

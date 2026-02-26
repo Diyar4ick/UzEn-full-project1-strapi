@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_structure_branch_srtucture_branches",
+  "info": {
+    "displayName": "Srtucture Branch"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "card_title": {
+      "type": "string"
+    },
+    "card_description": {
+      "type": "text"
+    },
+    "card_name": {
+      "type": "string"
+    },
+    "card_contacts": {
+      "type": "string"
+    },
+    "card_phone": {
+      "type": "string"
+    },
+    "card_email": {
+      "type": "string"
+    },
+    "card_img": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  },
+  "config": {}
+}

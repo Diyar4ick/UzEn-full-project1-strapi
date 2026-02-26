@@ -1,0 +1,42 @@
+{
+  "collectionName": "components_exp_detail_block2_exp_detail_blocks2s",
+  "info": {
+    "displayName": "Exp Detail blocks2"
+  },
+  "options": {},
+  "attributes": {
+    "phone_img": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "phone_text": {
+      "type": "text"
+    },
+    "phone_number": {
+      "type": "string"
+    },
+    "address_img": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "address_text": {
+      "type": "text"
+    },
+    "email_text": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

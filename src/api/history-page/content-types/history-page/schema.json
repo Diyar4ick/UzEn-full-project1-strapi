@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "history",
+  "info": {
+    "singularName": "history-page",
+    "pluralName": "history",
+    "displayName": "History Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "slug": {
+      "type": "uid",
+      "private": true
+    },
+    "blocks": {
+      "type": "dynamiczone",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "components": [
+        "community-history.community-s-history",
+        "history-chronology.history-chronology"
+      ]
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "collectionName": "components_footer_contacts_footer_contacts",
+  "info": {
+    "displayName": "Footer Contacts"
+  },
+  "options": {},
+  "attributes": {
+    "contacts_title": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "phone_number1": {
+      "type": "string"
+    },
+    "phone_number2": {
+      "type": "string"
+    },
+    "address": {
+      "type": "text"
+    },
+    "social_title": {
+      "type": "string"
+    },
+    "map_title": {
+      "type": "string"
+    },
+    "link_about": {
+      "type": "string"
+    },
+    "link_act": {
+      "type": "string"
+    },
+    "link_exp": {
+      "type": "string"
+    },
+    "link_adv": {
+      "type": "string"
+    },
+    "company_title": {
+      "type": "string"
+    },
+    "footer_bottom": {
+      "type": "blocks"
+    }
+  },
+  "config": {}
+}

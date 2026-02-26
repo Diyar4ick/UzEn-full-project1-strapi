@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_adv_card_adv_cards",
+  "info": {
+    "displayName": "adv card"
+  },
+  "options": {},
+  "attributes": {
+    "card_title": {
+      "type": "string"
+    },
+    "card_description": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

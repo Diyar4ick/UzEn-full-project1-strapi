@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_our_exp_comp_box_our_exp_and_comp_boxes",
+  "info": {
+    "displayName": "Our Exp and Comp Box"
+  },
+  "options": {},
+  "attributes": {
+    "box_text": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

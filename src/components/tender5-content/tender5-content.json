@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_tender5_content_tender5_content_s",
+  "info": {
+    "displayName": "Tender5 Content ",
+    "icon": "cup"
+  },
+  "options": {},
+  "attributes": {
+    "subtitle": {
+      "type": "string"
+    },
+    "title": {
+      "type": "text"
+    },
+    "title2": {
+      "type": "text"
+    },
+    "description": {
+      "type": "blocks"
+    },
+    "title3": {
+      "type": "string"
+    },
+    "title_num": {
+      "type": "string"
+    },
+    "title_table": {
+      "type": "text"
+    },
+    "table_description": {
+      "type": "blocks"
+    },
+    "table": {
+      "type": "blocks"
+    }
+  },
+  "config": {}
+}

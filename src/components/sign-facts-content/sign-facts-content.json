@@ -1,0 +1,58 @@
+{
+  "collectionName": "components_sign_facts_content_sign_facts_contents",
+  "info": {
+    "displayName": "Sign Facts Content"
+  },
+  "options": {},
+  "attributes": {
+    "fact_link": {
+      "type": "string"
+    },
+    "card2025": {
+      "type": "component",
+      "component": "sign-facts-card.sign-facts-card",
+      "repeatable": true
+    },
+    "card2024": {
+      "type": "component",
+      "component": "sign-facts-card.sign-facts-card",
+      "repeatable": true
+    },
+    "card2023": {
+      "type": "component",
+      "component": "sign-facts-card.sign-facts-card",
+      "repeatable": true
+    },
+    "card2022": {
+      "type": "component",
+      "component": "sign-facts-card.sign-facts-card",
+      "repeatable": true
+    },
+    "card2021": {
+      "type": "component",
+      "component": "sign-facts-card.sign-facts-card",
+      "repeatable": true
+    },
+    "card2020": {
+      "type": "component",
+      "component": "sign-facts-card.sign-facts-card",
+      "repeatable": true
+    },
+    "card2019": {
+      "type": "component",
+      "component": "sign-facts-card.sign-facts-card",
+      "repeatable": true
+    },
+    "fact_img": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  },
+  "config": {}
+}

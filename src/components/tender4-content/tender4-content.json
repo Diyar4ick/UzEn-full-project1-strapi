@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_tender4_content_tender4_contents",
+  "info": {
+    "displayName": "Tender4 Content"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "text"
+    },
+    "description": {
+      "type": "blocks"
+    },
+    "table": {
+      "type": "blocks"
+    },
+    "subtitle2": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "prospect",
+  "info": {
+    "singularName": "prospect-page",
+    "pluralName": "prospect",
+    "displayName": "Prospect"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "blocks": {
+      "type": "dynamiczone",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "components": [
+        "prospect-table.prospect-table"
+      ]
+    }
+  }
+}

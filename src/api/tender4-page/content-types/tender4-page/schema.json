@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tender4",
+  "info": {
+    "singularName": "tender4-page",
+    "pluralName": "tender4",
+    "displayName": "Tender4"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "blocks": {
+      "type": "dynamiczone",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "components": [
+        "tender4-content.tender4-content"
+      ]
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_department_card_department_cards",
+  "info": {
+    "displayName": "Department Card"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "name": {
+      "type": "string"
+    },
+    "contacts": {
+      "type": "text"
+    },
+    "phone": {
+      "type": "text"
+    },
+    "email": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

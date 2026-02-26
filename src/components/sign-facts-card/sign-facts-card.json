@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_sign_facts_card_sign_facts_cards",
+  "info": {
+    "displayName": "Sign Facts Card"
+  },
+  "options": {},
+  "attributes": {
+    "fact_year": {
+      "type": "string"
+    },
+    "fact_text": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

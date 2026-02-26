@@ -1,0 +1,145 @@
+{
+  "collectionName": "components_projects_projects",
+  "info": {
+    "displayName": "Projects"
+  },
+  "options": {},
+  "attributes": {
+    "project1": {
+      "type": "component",
+      "component": "project1.tashkent-project",
+      "repeatable": false
+    },
+    "project2": {
+      "type": "component",
+      "component": "project1.tashkent-project",
+      "repeatable": true
+    },
+    "project3": {
+      "type": "component",
+      "component": "project1.tashkent-project",
+      "repeatable": true
+    },
+    "project4": {
+      "type": "component",
+      "component": "project1.tashkent-project",
+      "repeatable": true
+    },
+    "project5": {
+      "type": "component",
+      "component": "project1.tashkent-project",
+      "repeatable": true
+    },
+    "project6": {
+      "type": "component",
+      "component": "project1.tashkent-project",
+      "repeatable": true
+    },
+    "project7": {
+      "type": "component",
+      "component": "project1.tashkent-project",
+      "repeatable": true
+    },
+    "project8": {
+      "type": "component",
+      "component": "project1.tashkent-project",
+      "repeatable": true
+    },
+    "project9": {
+      "type": "component",
+      "component": "project1.tashkent-project",
+      "repeatable": true
+    },
+    "projectImg1": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "projectImg2": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "projectImg3": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "projectImg4": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "projectImg5": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "projectImg6": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "projectImg7": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "projectImg8": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "projectImg9": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  },
+  "config": {}
+}

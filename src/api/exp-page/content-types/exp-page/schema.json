@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "exp",
+  "info": {
+    "singularName": "exp-page",
+    "pluralName": "exp",
+    "displayName": "Exp"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "blocks": {
+      "type": "dynamiczone",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "components": [
+        "our-exp.our-experience",
+        "our-exp-comp.our-exp-and-comp",
+        "our-serts.our-sertificates",
+        "our-partners.our-partners",
+        "our-clients.our-clients"
+      ]
+    }
+  }
+}

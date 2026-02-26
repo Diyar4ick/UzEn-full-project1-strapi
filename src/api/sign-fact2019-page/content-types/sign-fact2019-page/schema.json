@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sign_fact2019",
+  "info": {
+    "singularName": "sign-fact2019-page",
+    "pluralName": "sign-fact2019",
+    "displayName": "Sign-fact2019"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "blocks": {
+      "type": "dynamiczone",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "components": [
+        "sign-fact2019-table.sign-fact2019-table"
+      ]
+    }
+  }
+}

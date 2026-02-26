@@ -1,0 +1,58 @@
+{
+  "collectionName": "components_our_exp_our_experiences",
+  "info": {
+    "displayName": "Our experience"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "map": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "banner_left": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "map_amount1": {
+      "type": "component",
+      "component": "map-amount.map-amount",
+      "repeatable": true
+    },
+    "map_amount2": {
+      "type": "component",
+      "component": "map-amount.map-amount",
+      "repeatable": true
+    },
+    "map_amount3": {
+      "type": "component",
+      "component": "map-amount.map-amount",
+      "repeatable": true
+    },
+    "cyrcle": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "activity",
+  "info": {
+    "singularName": "activity-page",
+    "pluralName": "activity",
+    "displayName": "Activity"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "blocks": {
+      "type": "dynamiczone",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "components": [
+        "our-service1.our-service-1",
+        "our-service2.our-service-2",
+        "our-service3.our-service-3",
+        "project-design.project-design",
+        "activity-endtext.activity-endtext"
+      ]
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_exp_detail_block1_exp_detail_block1s",
+  "info": {
+    "displayName": "Exp Detail block1"
+  },
+  "options": {},
+  "attributes": {
+    "subtitle": {
+      "type": "text"
+    },
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "management",
+  "info": {
+    "singularName": "management-page",
+    "pluralName": "management",
+    "displayName": "Management"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "blocks": {
+      "type": "dynamiczone",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "components": [
+        "general-manager.general-manager",
+        "manager.manager",
+        "bussiness-manager.bussiness-manager"
+      ]
+    }
+  }
+}

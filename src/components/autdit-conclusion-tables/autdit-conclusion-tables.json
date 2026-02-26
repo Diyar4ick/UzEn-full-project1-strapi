@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_autdit_conclusion_tables_autdit_conclusion_tables",
+  "info": {
+    "displayName": "Autdit-conclusion tables"
+  },
+  "options": {},
+  "attributes": {
+    "title1": {
+      "type": "string"
+    },
+    "table_link": {
+      "type": "string"
+    },
+    "title2": {
+      "type": "string"
+    },
+    "table_description1": {
+      "type": "blocks"
+    },
+    "table_description2": {
+      "type": "blocks"
+    }
+  },
+  "config": {}
+}

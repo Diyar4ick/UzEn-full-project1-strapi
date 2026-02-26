@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_reports_card_report_cards",
+  "info": {
+    "displayName": "Report Card"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "sutitle": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

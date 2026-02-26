@@ -1,0 +1,73 @@
+{
+  "collectionName": "components_adv_advantages_adv_advantages",
+  "info": {
+    "displayName": "Adv advantages"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "card1": {
+      "type": "component",
+      "component": "adv-card.adv-card",
+      "repeatable": false
+    },
+    "card2": {
+      "type": "component",
+      "component": "adv-card.adv-card",
+      "repeatable": true
+    },
+    "card3": {
+      "type": "component",
+      "component": "adv-card.adv-card",
+      "repeatable": true
+    },
+    "card4": {
+      "type": "component",
+      "component": "adv-card.adv-card",
+      "repeatable": true
+    },
+    "card_icon1": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "card_icon2": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "card_icon3": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "card_icon4": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  },
+  "config": {}
+}

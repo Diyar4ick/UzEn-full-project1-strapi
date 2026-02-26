@@ -1,0 +1,52 @@
+{
+  "collectionName": "components_corp_manage_table_corp_manage_tables",
+  "info": {
+    "displayName": "Corp-manage table"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "table_title1": {
+      "type": "string"
+    },
+    "table_title2": {
+      "type": "string"
+    },
+    "member1": {
+      "type": "component",
+      "component": "corp-manage-mambers.corp-manage-members",
+      "repeatable": false
+    },
+    "member2": {
+      "type": "component",
+      "component": "corp-manage-mambers.corp-manage-members",
+      "repeatable": true
+    },
+    "member3": {
+      "type": "component",
+      "component": "corp-manage-mambers.corp-manage-members",
+      "repeatable": true
+    },
+    "member4": {
+      "type": "component",
+      "component": "corp-manage-mambers.corp-manage-members",
+      "repeatable": true
+    },
+    "member5": {
+      "type": "component",
+      "component": "corp-manage-mambers.corp-manage-members",
+      "repeatable": true
+    },
+    "member6": {
+      "type": "component",
+      "component": "corp-manage-mambers.corp-manage-members",
+      "repeatable": true
+    },
+    "table_link": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

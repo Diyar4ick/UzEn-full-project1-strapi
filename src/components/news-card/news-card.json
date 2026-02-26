@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_news_card_news_cards",
+  "info": {
+    "displayName": "News-card"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "blocks"
+    }
+  },
+  "config": {}
+}

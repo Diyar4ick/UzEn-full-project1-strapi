@@ -1,0 +1,44 @@
+{
+  "collectionName": "components_bussiness_manager_bussiness_managers",
+  "info": {
+    "displayName": "Bussiness_manager"
+  },
+  "options": {},
+  "attributes": {
+    "manager_avatar": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "manager_name": {
+      "type": "string"
+    },
+    "manager_duty": {
+      "type": "string"
+    },
+    "manager_phone": {
+      "type": "string"
+    },
+    "manager_workdays": {
+      "type": "string"
+    },
+    "manager_email": {
+      "type": "string"
+    },
+    "duty_button": {
+      "type": "string"
+    },
+    "close_button": {
+      "type": "string"
+    },
+    "dropdown_content": {
+      "type": "blocks"
+    }
+  },
+  "config": {}
+}

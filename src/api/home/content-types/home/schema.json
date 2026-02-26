@@ -1,0 +1,35 @@
+{
+  "kind": "singleType",
+  "collectionName": "homes",
+  "info": {
+    "singularName": "home",
+    "pluralName": "homes",
+    "displayName": "Home"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "blocks": {
+      "type": "dynamiczone",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "components": [
+        "about-organization.about-org",
+        "our-mission.our-mission",
+        "jointstock-company.joint-stock-sompany",
+        "company-news.company-news",
+        "what-we-do.what-we-do",
+        "activity-sphere.spheres"
+      ]
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_jointstock_card1_joint_stock_card1s",
+  "info": {
+    "displayName": "Joint-stock Card1"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

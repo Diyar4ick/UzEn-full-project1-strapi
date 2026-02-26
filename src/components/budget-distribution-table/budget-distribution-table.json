@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_budget_distribution_table_budget_distribution_tables",
+  "info": {
+    "displayName": "budget-distribution table"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "table_title": {
+      "type": "string"
+    },
+    "table_link": {
+      "type": "string"
+    },
+    "table_description": {
+      "type": "blocks"
+    }
+  },
+  "config": {}
+}

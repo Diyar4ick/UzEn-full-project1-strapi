@@ -1,0 +1,104 @@
+{
+  "collectionName": "components_header_nav_header_navbars",
+  "info": {
+    "displayName": "Header Navbar"
+  },
+  "options": {},
+  "attributes": {
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "about_org": {
+      "type": "string"
+    },
+    "history": {
+      "type": "string"
+    },
+    "strucure": {
+      "type": "string"
+    },
+    "management": {
+      "type": "string"
+    },
+    "vacancy": {
+      "type": "string"
+    },
+    "public_events": {
+      "type": "string"
+    },
+    "activity": {
+      "type": "string"
+    },
+    "projects": {
+      "type": "string"
+    },
+    "tenders": {
+      "type": "string"
+    },
+    "services": {
+      "type": "string"
+    },
+    "info_open": {
+      "type": "string"
+    },
+    "exp": {
+      "type": "string"
+    },
+    "corp_manage": {
+      "type": "string"
+    },
+    "facts": {
+      "type": "string"
+    },
+    "reports": {
+      "type": "string"
+    },
+    "table_fxd": {
+      "type": "string"
+    },
+    "faces": {
+      "type": "string"
+    },
+    "strategy": {
+      "type": "string"
+    },
+    "business_plan": {
+      "type": "string"
+    },
+    "prospectus": {
+      "type": "string"
+    },
+    "aut_conclusion": {
+      "type": "string"
+    },
+    "shareholders": {
+      "type": "string"
+    },
+    "info_dividend": {
+      "type": "string"
+    },
+    "business_plan_doing": {
+      "type": "string"
+    },
+    "vote_osa": {
+      "type": "string"
+    },
+    "profit": {
+      "type": "string"
+    },
+    "adventages": {
+      "type": "string"
+    },
+    "contacts": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}
