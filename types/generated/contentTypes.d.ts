@@ -831,6 +831,46 @@ export interface ApiDividentInfoPageDividentInfoPage
   };
 }
 
+export interface ApiEmitentReportPageEmitentReportPage
+  extends Struct.CollectionTypeSchema {
+  collectionName: 'emitent_report';
+  info: {
+    displayName: 'Emitent-report';
+    pluralName: 'emitent-report';
+    singularName: 'emitent-report-page';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  pluginOptions: {
+    i18n: {
+      localized: true;
+    };
+  };
+  attributes: {
+    blocks: Schema.Attribute.DynamicZone<
+      ['emitent-report-table.emitent-report-table']
+    > &
+      Schema.Attribute.SetPluginOptions<{
+        i18n: {
+          localized: true;
+        };
+      }>;
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    locale: Schema.Attribute.String;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::emitent-report-page.emitent-report-page'
+    >;
+    publishedAt: Schema.Attribute.DateTime;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+  };
+}
+
 export interface ApiExpPageExpPage extends Struct.CollectionTypeSchema {
   collectionName: 'exp';
   info: {
@@ -2564,6 +2604,7 @@ declare module '@strapi/strapi' {
       'api::corp-manage-page.corp-manage-page': ApiCorpManagePageCorpManagePage;
       'api::detail.detail': ApiDetailDetail;
       'api::divident-info-page.divident-info-page': ApiDividentInfoPageDividentInfoPage;
+      'api::emitent-report-page.emitent-report-page': ApiEmitentReportPageEmitentReportPage;
       'api::exp-page.exp-page': ApiExpPageExpPage;
       'api::faces-page.faces-page': ApiFacesPageFacesPage;
       'api::footer.footer': ApiFooterFooter;

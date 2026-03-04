@@ -11,7 +11,7 @@
     "title": {
       "type": "string"
     },
-    "description": {
+    "text": {
       "type": "text"
     },
     "card1": {

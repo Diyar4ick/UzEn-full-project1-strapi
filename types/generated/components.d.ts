@@ -319,6 +319,19 @@ export interface DividentInfoTableDividentInfoTable
   };
 }
 
+export interface EmitentReportTableEmitentReportTable
+  extends Struct.ComponentSchema {
+  collectionName: 'components_emitent_report_table_emitent_report_tables';
+  info: {
+    displayName: 'Emitent-report table';
+  };
+  attributes: {
+    table_content: Schema.Attribute.Blocks;
+    table_link: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
 export interface ExpDetailBlock1ExpDetailBlock1 extends Struct.ComponentSchema {
   collectionName: 'components_exp_detail_block1_exp_detail_block1s';
   info: {
@@ -641,7 +654,6 @@ export interface JointstockCompanyJointStockSompany
       'jointstock-card1.joint-stock-card1',
       true
     >;
-    description: Schema.Attribute.Text;
     jointstock_icon1: Schema.Attribute.Media<
       'images' | 'files' | 'videos' | 'audios'
     >;
@@ -652,6 +664,7 @@ export interface JointstockCompanyJointStockSompany
       'images' | 'files' | 'videos' | 'audios'
     >;
     subtitle: Schema.Attribute.String;
+    text: Schema.Attribute.Text;
     title: Schema.Attribute.String;
   };
 }
@@ -1751,6 +1764,7 @@ declare module '@strapi/strapi' {
       'corp-manage-table.corp-manage-table': CorpManageTableCorpManageTable;
       'department-card.department-card': DepartmentCardDepartmentCard;
       'divident-info-table.divident-info-table': DividentInfoTableDividentInfoTable;
+      'emitent-report-table.emitent-report-table': EmitentReportTableEmitentReportTable;
       'exp-detail-block1.exp-detail-block1': ExpDetailBlock1ExpDetailBlock1;
       'exp-detail-block2.exp-detail-blocks2': ExpDetailBlock2ExpDetailBlocks2;
       'faces-table.faces-table': FacesTableFacesTable;

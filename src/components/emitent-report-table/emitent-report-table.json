@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_emitent_report_table_emitent_report_tables",
+  "info": {
+    "displayName": "Emitent-report table"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "table_link": {
+      "type": "string"
+    },
+    "table_content": {
+      "type": "blocks"
+    }
+  },
+  "config": {}
+}
