@@ -1629,7 +1629,12 @@ export interface ApiSignificantFactsPageSignificantFactsPage
   attributes: {
     blocks: Schema.Attribute.DynamicZone<
       ['sign-facts-content.sign-facts-content']
-    >;
+    > &
+      Schema.Attribute.SetPluginOptions<{
+        i18n: {
+          localized: true;
+        };
+      }>;
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;

@@ -17,6 +17,11 @@
   "attributes": {
     "blocks": {
       "type": "dynamiczone",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
       "components": [
         "sign-facts-content.sign-facts-content"
       ]
