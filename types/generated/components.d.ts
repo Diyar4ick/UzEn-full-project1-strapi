@@ -127,6 +127,7 @@ export interface AutditConclusionTablesAutditConclusionTables
     table_link: Schema.Attribute.String;
     title1: Schema.Attribute.String;
     title2: Schema.Attribute.String;
+    zip: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
   };
 }
 
@@ -137,6 +138,8 @@ export interface BudgetDistributionTableBudgetDistributionTable
     displayName: 'budget-distribution table';
   };
   attributes: {
+    pdf1: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf2: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
     table_description: Schema.Attribute.Blocks;
     table_link: Schema.Attribute.String;
     table_title: Schema.Attribute.String;
@@ -151,6 +154,9 @@ export interface BusinessPlanDoingTableBusinessPlanDoingTable
     displayName: 'Business-plan-doing table';
   };
   attributes: {
+    pdf1: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf2: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf3: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
     table_description: Schema.Attribute.Blocks;
     table_link: Schema.Attribute.String;
     table_title: Schema.Attribute.String;
@@ -165,6 +171,20 @@ export interface BusinessPlanTableBusinessPlanTable
     displayName: 'business-plan table';
   };
   attributes: {
+    pdf1: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf10: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf11: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf12: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf13: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf14: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf2: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf3: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf4: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf5: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf6: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf7: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf8: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf9: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
     table_description: Schema.Attribute.Blocks;
     table_link: Schema.Attribute.String;
     title: Schema.Attribute.String;
@@ -283,6 +303,12 @@ export interface CorpManageTableCorpManageTable extends Struct.ComponentSchema {
       'corp-manage-mambers.corp-manage-members',
       true
     >;
+    pdf1: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf2: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf3: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf4: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf5: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf6: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
     table_link: Schema.Attribute.String;
     table_title1: Schema.Attribute.String;
     table_title2: Schema.Attribute.String;
@@ -312,6 +338,11 @@ export interface DividentInfoTableDividentInfoTable
     displayName: 'divident-info table';
   };
   attributes: {
+    pdf1: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf2: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf3: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf4: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf5: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
     table_description: Schema.Attribute.Blocks;
     table_link: Schema.Attribute.String;
     table_title: Schema.Attribute.String;
@@ -372,6 +403,17 @@ export interface FacesTableFacesTable extends Struct.ComponentSchema {
     displayName: 'Faces table';
   };
   attributes: {
+    pdf1: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf10: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf11: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf2: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf3: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf4: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf5: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf6: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf7: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf8: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf9: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
     table_description: Schema.Attribute.Blocks;
     table_link: Schema.Attribute.String;
     table_title: Schema.Attribute.String;
@@ -444,6 +486,11 @@ export interface FxdTableTableFxdTableTable extends Struct.ComponentSchema {
     displayName: 'fxd-table table';
   };
   attributes: {
+    pdf1: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf2: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf3: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf4: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf5: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
     table_content: Schema.Attribute.Blocks;
     table_link: Schema.Attribute.String;
     table_title: Schema.Attribute.String;
@@ -1228,6 +1275,9 @@ export interface ProspectTableProspectTable extends Struct.ComponentSchema {
     displayName: 'Prospect table';
   };
   attributes: {
+    pdf1: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf2: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf3: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
     table_description: Schema.Attribute.Blocks;
     table_link: Schema.Attribute.String;
     title: Schema.Attribute.String;
@@ -1321,6 +1371,13 @@ export interface ReportsContentReportPageContent
       'images' | 'files' | 'videos' | 'audios',
       true
     >;
+    zip1: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    zip2: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    zip3: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    zip4: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    zip5: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    zip6: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    zip7: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
   };
 }
 
@@ -1342,6 +1399,19 @@ export interface SignFact2019TableSignFact2019Table
     displayName: 'Sign-fact2019 table';
   };
   attributes: {
+    pdf1: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf10: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf11: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf12: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf13: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf2: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf3: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf4: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf5: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf6: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf7: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf8: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf9: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
     table_content: Schema.Attribute.Blocks;
     table_link: Schema.Attribute.String;
     table_title: Schema.Attribute.String;
@@ -1356,6 +1426,30 @@ export interface SignFact2020TableSignFact2020Table
     displayName: 'Sign-fact2020 table';
   };
   attributes: {
+    pdf1: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf10: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf11: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf12: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf13: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf14: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf15: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf16: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf17: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf18: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf19: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf2: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf20: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf21: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf22: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf23: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf24: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf3: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf4: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf5: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf6: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf7: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf8: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf9: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
     table_content: Schema.Attribute.Blocks;
     table_link: Schema.Attribute.String;
     table_title: Schema.Attribute.String;
@@ -1370,6 +1464,49 @@ export interface SignFact2021TableSignFact2021Table
     displayName: 'Sign-fact2021 Table';
   };
   attributes: {
+    pdf1: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf10: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf11: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf12: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf13: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf14: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf15: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf16: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf17: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf18: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf19: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf2: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf20: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf21: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf22: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf23: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf24: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf25: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf26: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf27: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf28: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf29: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf3: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf30: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf31: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf32: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf33: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf34: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf35: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf36: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf37: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf38: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf39: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf4: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf40: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf41: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf42: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf43: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf5: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf6: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf7: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf8: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf9: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
     table_content: Schema.Attribute.Blocks;
     table_link: Schema.Attribute.String;
     table_title: Schema.Attribute.String;
@@ -1384,6 +1521,36 @@ export interface SignFact2022TableSignFact2022Table
     displayName: 'Sign-fact2022 table';
   };
   attributes: {
+    pdf1: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf10: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf11: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf12: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf13: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf14: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf15: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf16: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf17: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf18: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf19: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf2: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf20: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf21: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf22: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf23: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf24: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf25: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf26: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf27: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf28: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf29: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf3: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf30: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf4: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf5: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf6: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf7: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf8: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf9: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
     table_content: Schema.Attribute.Blocks;
     table_link: Schema.Attribute.String;
     table_title: Schema.Attribute.String;
@@ -1448,6 +1615,7 @@ export interface SignFact2024TableSignFact2024Table
     pdf29: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
     pdf3: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
     pdf30: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf31: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
     pdf4: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
     pdf5: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
     pdf6: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
@@ -1521,6 +1689,9 @@ export interface StragyTableStratagyTable extends Struct.ComponentSchema {
     displayName: 'Stratagy table';
   };
   attributes: {
+    pdf1: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf2: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf3: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
     table_description: Schema.Attribute.Blocks;
     table_link: Schema.Attribute.String;
     title: Schema.Attribute.String;
@@ -1761,6 +1932,11 @@ export interface VotingResultsTableVotingResultsTable
     displayName: 'voting-results table';
   };
   attributes: {
+    pdf1: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf2: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf3: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf4: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    pdf5: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
     table_description: Schema.Attribute.Blocks;
     table_link: Schema.Attribute.String;
     title: Schema.Attribute.String;

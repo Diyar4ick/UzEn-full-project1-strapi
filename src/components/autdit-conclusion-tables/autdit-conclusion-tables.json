@@ -19,6 +19,16 @@
     },
     "table_description2": {
       "type": "blocks"
+    },
+    "zip": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
     }
   },
   "config": {}
